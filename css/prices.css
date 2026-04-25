@@ -1,0 +1,648 @@
+*{
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:  #031b2c;
+    direction: rtl;
+    /* position: relative; */
+}
+
+.containere{
+    width: 97%;
+    margin: auto;
+}
+.modal-pop{
+    position: fixed;
+    /* z-index: 99; */
+    direction: ltr;
+}
+.modal-title{
+    font-family: 'Cairo';
+}
+.modal-body form div label{
+    margin-left: 40px;
+    font-family: 'Cairo';
+    font-size: 18px;
+    margin-top: 10px;
+}
+.modal-body form div input{
+    background-color: #04334bc0;
+    height: 40px;
+}
+.modal-body form div input::placeholder{
+    float: left;
+    font-size: 15px;
+    color: #eeeeeec5;
+    font-family: 'Cairo';
+}
+.modal-body form .button{
+    width: 140px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    margin-left: 200px;
+}
+.btn-default{
+    background-color: transparent;
+    color: rgb(34, 180, 238);
+    font-size: 1.5vw;
+    font-family:'Cairo' ;
+    border-radius: 30px;
+    border: none;
+    margin-top: 0.19em;
+    font-weight: 600;
+    margin-left: 1em;
+}
+.btn-default:hover {
+    color: rgb(92, 92, 231);
+    background-color: skyblue;
+    border-color: none;
+    border: none;
+}
+.btn-default.focus,
+ .btn-default:focus {
+    color: rgb(92, 92, 231);
+    background-color: skyblue;
+    border-color: skyblue;
+    border: none;
+}
+.navbar-nav>li>a{
+    color: white;
+    font-size: 1.55vw;
+    font-weight: 600;
+    font-family:'Cairo' ;
+}
+.nav>li>a:focus,
+.nav>li>a:hover {
+    background-color: transparent;
+}
+.linkss{
+    margin-left: 1.7em;
+}
+.nav1{
+    /* margin-top: 1em; */
+    margin-bottom: 1em;
+}
+.nav1 ul {
+    margin-top: 1em;
+}
+.icon{ 
+    width: 1.35vw; 
+    height: auto;
+    margin-top: 1.17em;
+}
+@media (max-width:768px){
+    .linkss{
+        top: 0px;
+        width: 90%;      
+    }
+    .linkss ul li{
+        display: inline-block;
+        direction: ltr;
+    }  
+    .icon{ 
+        margin-right: 35px;
+        margin-top: -1.8px;
+    }  
+}
+.nav1{
+    padding: 3px 0px ;
+}
+.nav1 ul {
+    margin-top: 5px;
+}
+.icon{
+    
+    height: 20px;
+    margin-top: 15px;
+}
+.nav2{
+    padding: 1.5em 0.5em;
+    border-radius: 90px;
+    margin-top: -0.5em;
+    position: fixed;
+    z-index: 9;
+    width: 97%;
+    border:0.2em solid rgba(135, 207, 235, 0.486);
+    background: rgba(135, 207, 235, 0.096);
+    backdrop-filter: blur(8px);
+    margin-right: 2em;
+    
+}
+.nav2 .logo img{
+     height: 95px;
+     margin-top: -10px;
+}
+.nav2 ul{
+    margin-top: 20px;
+    margin-right: 15px;
+}
+.login-x{
+    margin-left: 30px;
+    border-radius: 50px;
+    background-image: linear-gradient(to left,#055279,rgb(82, 194, 238));
+    margin-top: -55px;
+    font-size: 25px;
+    padding: 8px 30px;
+    color: white;
+    cursor: pointer;
+    font-family:'Cairo' ;
+}
+.nav2 .links ul li a{
+    font-size: 25px;
+    color: white;
+    margin-right: 30px;
+    text-decoration: none;
+    font-family:'Cairo' ;
+    font-weight: 600;
+}
+/* @media (max-width:768px){
+    .nav2 .logo{
+        width: 100%;
+        text-align: center;
+        margin-bottom: 30px;
+        background-color: #02273893;
+    }
+    .nav2 .links{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 30px;
+        color: #022738;
+        
+    }
+    .nav2 .links ul li {
+        display: block;
+        height: auto;
+        width: 100%;
+        margin-bottom: 10px;
+        
+    }
+    .nav2 .links ul li a{
+        color: #022738;
+    }
+    .nav2{
+        width: 100%;
+        height: auto;
+        background-color: #eee;
+        margin-bottom: 100px;
+    }
+    .nav2 .login-x{
+        margin-top: 20px;
+        width: 100%;
+        text-align: center;
+    }
+
+} */
+.section-one{
+    padding: 150px 50px;
+    margin-top: 5em;
+}
+.div1{
+    text-align: center;
+}
+.div1 span{
+    font-size: 3vw;
+    color: rgb(34, 180, 238);
+    font-family:'Cairo' ;
+    border-radius: 10px;
+    padding: 10px 25px;
+    background-color: rgb(45, 45, 105);
+}
+.div1 h1{
+    font-size: 4vw;
+    color: white;
+    font-family:'Cairo' ;
+    width: 60vw;
+    text-align: center;
+    line-height: 1.50;
+    margin: auto;
+    margin-top: 1.5em;
+}
+.div1 p{
+    font-size: 3.5vw;
+    color: white;
+    font-family:'Cairo' ;
+    width: 25vw;
+    text-align: center;
+    line-height: 1.50;
+    margin: auto;
+    margin-top: 1.5em;
+}
+.div1 .buttons{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    border-radius: 30px;
+    border: 1px solid rgb(2, 172, 240);
+    direction: ltr;
+    text-align: center;
+    margin: auto;
+    margin-top: 2em;
+    width: 28vw;
+    height: auto;
+    overflow: hidden;
+}
+.buttons .btn2{
+    border-radius: 35px;
+    cursor: pointer;
+    font-family:'Cairo' ;
+    color: white;
+    font-size: 1.2vw;
+    background-image: linear-gradient(to left,#033147,rgb(22, 132, 175));
+    padding: 0.8em 2em;
+    flex: 1;
+}
+.buttons .btn1{
+    background-color: transparent;
+    color: white;
+    flex: 1;
+    border: none;
+    border-radius: 35px;
+    padding: 0.8em 2em;
+    font-family:'Cairo';
+    font-size: 1.2vw;  
+}
+@media (max-width:1200px){
+    .div1 .buttons{
+        width: 50%;
+        font-size: 0.8vw;
+        height: auto;
+        margin-top: 15px;
+    }
+}
+.row{
+    margin: auto;
+    text-align: center;
+}
+.parent{
+    position: relative;
+}
+.circle{
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    background-image: linear-gradient(to top,rgb(0, 9, 14) ,rgb(10, 173, 238));
+    display: flex;
+    justify-content: center;
+    margin-right: 35%;
+    margin-top: -50px;
+}
+.circle img{
+    margin: auto;
+}
+@media (max-width:1200px){
+    .card{
+        margin-bottom: 100px;
+    }
+}
+.card .click{
+    background-color: transparent;
+    border: 1px solid rgb(2, 172, 240);
+    font-size: 20px;
+    color: rgb(2, 172, 240);
+    font-family:'Cairo' ;
+    border-radius: 50px;
+    font-weight: 500;
+}
+.card{
+    border: 1px solid rgb(2, 172, 240);
+    border-radius: 25px;
+    text-align: right;
+    padding: 30px;
+}
+.card2{
+    background-image: linear-gradient(to bottom,rgba(3, 42, 58, 0.603) 60%,rgb(4, 117, 161));
+}
+.card ul li{
+    color: white;
+    
+    font-family:'Cairo' ;
+    margin-bottom: 50px;
+    font-weight: 600;
+    line-height: 1.428; 
+    display: flex;
+    /* justify-content: right; */
+}
+.card ul li a{
+    color: white;
+    font-size: 15px;
+    font-family:'Cairo' ;
+    margin-right: 10px;
+    font-weight: 600;
+    line-height: 1.50;
+    text-decoration: none;
+    margin-top: 5px;
+}
+.card h3{
+    color: white;
+    font-size: 27px;
+    font-family:'Cairo' ;
+    margin-bottom: 20px;
+    display: flex;
+}
+.card span{
+    color: rgb(2, 172, 240);
+    font-size: 23px;
+}
+.card h2{
+    text-align: right;
+    color: white;
+    font-size: 25px;
+    font-family:'Cairo' ;
+    margin-bottom: 50px;
+    line-height: 1.428;
+}
+.fot-div{
+    display: flex;
+    justify-content: space-between;
+    margin-top: -10px;
+}
+.fot-div button{
+    /* display: inline-block; */
+    
+    padding: 1px 35px;
+    background-color: rgb(29, 180, 240);
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 45px;
+    color: black;
+    border: none;
+    font-family:'Cairo';
+}
+.fot-div h1{
+    /* display: inline-block; */
+    
+    color: white;
+    margin-right: 50px;
+    font-size: 30px; 
+    font-family:'Cairo' ;
+    font-weight: 600;
+}
+.section-three{
+    padding: 50px 0px;
+    background-image: radial-gradient(circle 400px at center ,rgba(4, 116, 161, 0.5),#031b2c );
+}
+.box{
+    border: 1px solid rgb(2, 172, 240);
+    border-radius: 20px;
+    text-align: right;
+    padding: 30px;
+    margin: 20px 25px;
+     background-image: linear-gradient(to top,rgba(3, 42, 58, 0.603) ,rgba(4, 116, 161, 0.411));
+}
+.box h4{
+    text-align: right;
+    color: white;
+    font-size: 23px;
+    font-family:'Cairo' ;
+    margin-bottom: 30px;
+}
+.box h1{
+    text-align: right;
+    color: white;
+    font-size: 35px;
+    font-family:'Cairo' ;
+    margin-bottom: 30px;
+    font-weight: 600;
+    line-height: 1.3555;
+}
+.boxs{
+    display: flex;
+}
+.box1{
+    flex: 1;
+    
+}
+.box2{
+    flex: 1;
+    
+}
+.box0{
+    display: flex;
+    margin-bottom: 50px;
+}
+.box0 h4{
+    margin-right: 10px;
+    font-size: 15px;
+    font-weight: 600;
+    margin-top: 25px;
+}
+.div-square{
+    padding: 2.7em 0em;
+    width: 88%;
+    height: auto;
+    text-align: center;
+    background-image:radial-gradient(circle 350px at top center ,rgba(18, 143, 192, 0.521),#0d2a38  );    margin: auto;
+    border-radius: 35px;
+    margin-bottom: 7em;
+    border: 0.5px solid rgba(28, 173, 230, 0.582);
+    overflow: hidden;
+}
+.div-square h1{
+    text-align: center;
+    color: white;
+    margin-bottom: 2em;
+    font-size: 3.4vw;
+    font-family:'Cairo' ,'sans-serif' ;
+    font-weight: bold;
+    line-height: 1.45;
+}
+.div-form{
+    margin: auto;
+    
+}
+.input1 label{
+    float: right;
+    color: white;
+    font-size: 1.5vw;
+    font-weight: 500;
+    font-family:'Cairo' ,'sans-serif' ;
+    margin-right: 57px;
+}
+.input1 input::placeholder{
+    font-size: 1.3vw;
+    font-family:'Cairo' ,'sans-serif' ;
+}
+.input2 input::placeholder{
+    font-size: 1.3vw;
+    font-family:'Cairo' ,'sans-serif' ;
+}
+.input2 label{
+    float: right;
+    color: white;
+    font-size: 1.5vw;
+    font-weight: 500;
+    font-family:'Cairo' ,'sans-serif' ;
+    margin-right: 57px;
+}
+.div-form button{
+    padding: 1em 2em;
+    font-size: 1.5vw;
+    font-family:'Cairo' ,'sans-serif' ;
+    box-shadow: 0px 2px 11px 1px rgba(57, 179, 228, 0.541);
+    border: none;
+}
+
+.input1{
+    position: relative;
+}
+input{
+    background-color: #022738;
+    padding: 2.7em 4.2em;
+    width: 33vw;
+    border-radius: 15px;
+    margin: auto;
+    margin: 1.8em 3.8em;
+    border: 1px solid #eee;
+    overflow: hidden;
+}
+@media (max-width:768px){
+    .input1 img{
+       margin-right: 1em;
+    }
+    input{
+        width: 75%;
+        height: auto;
+    }
+}
+.input1 img{
+    position: absolute;
+    top: 90px;
+    right: 75px;
+    width: 2vw;
+    height: auto;
+}
+.input2{
+    position: relative;
+}
+.input2 h3{
+    position: absolute;
+    top: 60px;
+    left: 80px;
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+    font-size: 1.8vw;
+    font-family:'Cairo' ,'sans-serif' ;
+}
+.last{
+    background-image: linear-gradient(to right,#18045f7c,#206a8fbe,#3d2c7aab);
+    width: 95%;
+    height: auto;
+    padding:3em 9em;
+    margin: auto;
+    margin-bottom: 8em;
+    margin-top: 20em;
+}
+.last h1{
+    color: white;
+    font-weight: 680;
+    font-size: 3vw;
+    font-family:'Cairo' ,'sans-serif' ;
+    margin-bottom: 2em;
+    text-align: center;
+}
+.last .inside{
+    background-color: #17597a;
+    padding: 3em 3em;
+    width: 85%;
+    height: 23vh;
+    display: block;
+    margin: auto;
+    border: 2px solid #eee;
+    border-radius: 22px;
+}
+.last .inside button{
+    float: left;
+    background-color: #38b6ff;
+    padding: 0.5em 3em;
+    font-size: 2vw;
+    font-weight: bold;
+    color: white;
+    font-family:'Cairo' ,'sans-serif' ;
+    box-shadow: -1px 7px 16px 8px rgba(57, 179, 228, 0.541);
+    border: none;
+    border-radius:35px ;
+    margin-top: -5px;
+}
+.footer-main{
+    display: flex;
+    padding: 2.5em;
+}
+.footer-main .footer-logo{
+    flex: 2;
+    text-align: center;
+}
+.footer-main .footer-logo .logo{
+    width: 20vw;
+    height: auto;
+}
+.footer-main .footer-logo h1{
+    text-align: center;
+    color: white;
+    font-size: 2.3vw;
+    font-family:'Cairo' ,'sans-serif' ;
+    font-weight: bold;
+    margin-bottom: 1.2em;
+}
+.footer-main .footer-logo ul li img{
+    margin-left: 0.7em;
+    width: 2.8vw;
+    height: auto;
+}
+.footer-main .ul-1{
+    flex: 1;
+}
+.ul-1 h3{
+    text-align: center;
+    color: white;
+    font-size: 1.8vw;
+    font-family:'Cairo' ,'sans-serif' ;
+    font-weight: bold;
+}
+.ul-1 ul li{
+    text-align: center;
+    color: white;
+    font-size: 1.4vw;
+    margin-bottom: 0.7em;
+    font-family:'Cairo' ,'sans-serif' ;
+    list-style-type: none;
+    line-height: 1.50;
+}
+.footer-last{
+    display: flex;
+    margin-top: 8em;
+}
+.footer-last .div1{ 
+    flex: 1;
+    margin-right: 4em;
+    color: white;
+    font-size: 1vw;
+    font-family:'Cairo' ,'sans-serif' ;
+}
+.footer-last .div1 ul li{
+    display: inline-block;
+    list-style-type: none;
+    margin-right: 1.5em;
+    
+}
+.footer-last .div2{
+    flex: 1;
+    margin-top: -10px;
+}
+.footer-last .div2 h3{
+    
+    float: left;
+    color: white;
+    font-size: 1vw;
+    font-family:'Cairo' ,'sans-serif' ;
+    margin-left: 4em; 
+    
+}
+footer{
+    background-image: radial-gradient(circle,#0d2a38,#09435f,#0d2a38);
+}

@@ -1,0 +1,915 @@
+*{
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:  #031b2c;
+    direction: rtl;
+    
+}
+
+.containere{
+    width: 97%;
+    margin: auto;
+}
+.modal-pop{
+    position: fixed;
+    /* z-index: 99; */
+    direction: ltr;
+    overflow: hidden;
+}
+.modal-body{
+    overflow: hidden;
+}
+.modal-title{
+    font-family: 'Cairo';
+}
+.modal-body form div label{
+    margin-left: 40px;
+    font-family: 'Cairo';
+    font-size: 18px;
+    margin-top: 10px;
+}
+.modal-body form div input{
+    background-color: #04334bc0;
+    height: 40px;
+}
+.modal-body form div input::placeholder{
+    float: left;
+    font-size: 15px;
+    color: #eeeeeec5;
+    font-family: 'Cairo';
+}
+.modal-body form .button{
+    width: 140px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    margin-left: 200px;
+}
+.header-main{
+    position: relative;
+    
+}
+.btn-default{
+    background-color: transparent;
+    color: rgb(34, 180, 238);
+    font-size: 1.5vw;
+    font-family:'Cairo' ;
+    border-radius: 30px;
+    border: none;
+    margin-top: 0.19em;
+    font-weight: 600;
+    margin-left: 1em;
+}
+.btn-default:hover {
+    color: rgb(92, 92, 231);
+    background-color: skyblue;
+    border-color: none;
+    border: none;
+}
+.btn-default.focus,
+ .btn-default:focus {
+    color: rgb(92, 92, 231);
+    background-color: skyblue;
+    border-color: skyblue;
+    border: none;
+}
+.navbar-nav>li>a{
+    color: white;
+    font-size: 1.55vw;
+    font-weight: 600;
+    font-family:'Cairo' ;
+}
+.nav>li>a:focus,
+.nav>li>a:hover {
+    background-color: transparent;
+}
+.linkss{
+    margin-left: 1.7em;
+}
+.nav1{
+    margin-top: -1em;
+    margin-bottom: 1em;
+}
+.nav1 ul {
+    margin-top: 0.4em;
+}
+.icon{ 
+    width: 1.35vw; 
+    height: auto;
+    margin-top: 1.17em;
+}
+@media (max-width:991px){
+    .linkss{
+        top: 0px;
+        width: 90%;      
+    }
+    .linkss ul li{
+        display: inline-block;
+        direction: ltr;
+    }  
+    .icon{ 
+        margin-right: 35px;
+        margin-top: -1.8px;
+    }  
+}
+
+
+
+
+.nav2{
+    padding: 1.5em 0.5em;
+    border-radius: 90px;
+    margin-top: -0.5em;
+    position: fixed;
+    z-index: 9;
+    width: 97%;
+    border:0.2em solid rgba(135, 207, 235, 0.486);
+    background: rgba(135, 207, 235, 0.096);
+    backdrop-filter: blur(8px);
+    margin-right: 2em;
+}
+@media (max-width:992px){
+    .nav2{
+        width: 100%;
+        height: 18vh;
+        margin-bottom: 150px;
+        overflow: hidden;
+        margin: auto;
+        text-align: center;
+    }
+    .nav2 .logo img{
+        height: auto;
+        width: 120px;
+        display: block;
+        margin: auto;
+        margin-bottom: 10px;
+        
+}
+    .nav2 ul{
+        
+        display: none;
+    }
+    .login-x{
+        display:none;
+    }
+}
+.nav2 .logo img{
+     height: auto;
+     width: 320px;
+     margin-top: -13px;
+}
+.nav2 ul{
+    margin-top: 2em;
+    margin-right: 1.5em;
+}
+.login-x{
+    margin-left: 2em;
+    border-radius: 50px;
+    background-image: linear-gradient(to left,#055279,rgb(82, 194, 238));
+    margin-top: -2.38em;
+    font-size: 1.7vw;
+    padding: 0.5em 1.5em;
+    color: white;
+    cursor: pointer;
+    font-family:'Cairo' ;
+}
+.nav2 .links ul li a{
+    font-size: 1.7vw;
+    color: white;
+    margin-right: 30px;
+    text-decoration: none;
+    font-family:'Cairo' ;
+    font-weight: 600;
+}
+ /* @media (max-width:768px){
+    .nav2 .logo{
+        width: 100%;
+        text-align: center;
+        margin-bottom: 30px;
+        background-color: #02273893;
+    }
+    .nav2 .links{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 30px;
+        color: #022738;
+        
+    }
+    .nav2 .links ul li {
+        display: block;
+        height: auto;
+        width: 100%;
+        margin-bottom: 10px;
+        
+    }
+    .nav2 .links ul li a{
+        color: #022738;
+    }
+    .nav2{
+        width: 100%;
+        height: auto;
+        background-color: #eee;
+        margin-bottom: 100px;
+    }
+    .nav2 .login-x{
+        margin-top: 20px;
+        width: 100%;
+        text-align: center;
+    }
+
+}  */
+
+.section-one{
+    padding-top: 8em;
+    padding-right: 2em;
+    padding-left: 1em;
+}
+.section-one img{
+    width: 45vw;
+    height: auto;
+}
+.text{
+    padding: 5em 0em;
+}
+.text h1 span{
+    color: white;
+    font-size: 4.7vw;
+    font-weight: bold;
+    font-family:'Cairo' ;
+}
+.text h1{
+    color: rgb(34, 180, 238);
+    font-size: 4.7vw;
+    font-weight: bold;
+    font-family:'Cairo' ;
+    line-height: 1.50;
+}
+.text h3{
+    color: white;
+    font-size: 1.6vw;
+    font-weight: bold;
+    margin-bottom:15px ;
+    font-family:'Cairo' ;
+}
+.text p{
+    color: white;
+    font-size: 1.2vw;
+    width: 30em;
+    line-height: 1.70;
+    margin-bottom: 1em;
+    font-family:'Cairo' ;
+}
+.text button{
+    color: white;
+    font-size: 1.3vw;
+    font-weight: bold;
+    border-radius: 30px;
+    padding: 0.7em 1.2em;
+    background-color: rgb(78, 194, 240);
+    border: none;
+    font-family:'Cairo' ;
+}
+
+.section-two{
+    padding: 50px 0px;
+}
+.main h1{
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 65px;
+    font-size: 3vw;
+    font-family:'Cairo','sans-serif' ;
+}
+.logo-img{
+    display: flex;
+    justify-content: center;
+}
+.logo-img img{
+    flex: 1;
+    width: 10vw;
+    height: auto;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.section-three{
+    padding: 5em 0em;
+}
+.section-three h1{
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 60px;
+    font-size: 3vw;
+    line-height: 1.40;
+    font-family:'Cairo' ,'sans-serif' ;
+    
+}
+.boxs{
+   text-align: center;
+   
+}
+.box{
+    display: inline-block;
+    background-color: rgb(3, 3, 15);
+    margin-right: 1.5em;
+    padding: 1.5em 1.8em;
+    border-radius: 20px;
+    box-shadow: 1px 2px 5px 1px rgba(11, 11, 136, 0.336);
+}
+@media (max-width:991px){
+    .box{
+        width: 80%;
+        height: auto;
+        margin-bottom: 5px;
+    }
+    .box1{
+        width: 80%;
+        height: auto;
+        margin-bottom: 5px;
+    }
+    .box h3{
+        font-size: 1.2vw;
+    }
+    .box1 h3{
+        font-size: 1.2vw;
+    }
+}
+.box1{
+    display: inline-block;
+    background-color: rgb(3, 3, 15);
+    margin-right: 1.8em;
+    padding:1.5em 1.8em;
+    border-radius: 20px;
+    box-shadow: 1px 2px 5px 1px rgba(11, 11, 136, 0.336);
+}
+.img-out{
+    background-image: url('../images/relative.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: block;
+    margin: auto;
+    height: 80px;
+    width: 80px;
+    
+    position: relative;
+}
+.img-out img{
+    position: absolute;
+    display: block;
+    margin: auto;
+    margin-right: 22px;
+    margin-top: 25%;
+}
+.box h3{
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-size: 1.5vw;
+    font-family:'Cairo' ;
+    line-height: 1.50;
+}
+.box1 h3{
+    text-align: center;
+    color: white;
+    font-weight: bold;
+   font-size: 1.5vw; 
+    font-family:'Cairo' ;
+    line-height: 1.50;
+}
+.divs{
+
+    margin-top: 6em;
+    width: 43vw;
+    height: auto;
+    margin-bottom: 1em;
+}
+.div-img0 img{
+    height: auto;
+    width: 52vw;
+    margin-right: -4em;
+    margin-top: 2em;
+} 
+@media (max-width:768px){
+    .div-img0 img{
+        width: 100%;
+        height: auto;
+        display: block;
+        margin: auto;
+        margin-top: 20px;
+    }
+    .divs{
+        width: 100%;
+        height: auto;
+    }
+}
+.div-text{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(4, 4, 19);
+    margin-bottom: 1.8em;
+    padding-top: 1.2em;
+    padding-bottom: 2.4em;
+    padding-left: 1.8em;
+    padding-right: 2.4em;
+    border-radius: 25px;
+    border:1px solid rgba(11, 11, 136, 0.863);
+}
+.div-text h3{
+    flex: 1;
+    color: white;
+    font-weight: 600;
+    font-size: 1.3vw;
+    
+    line-height: 1.50;
+    font-family:'Cairo' ;
+    
+}
+.div-text i{
+    float: right;
+    margin:auto;
+    color: blue;
+    font-size: 1.8vw;
+    margin-top:5%;
+}
+.part3{
+    padding: 3em 0em;
+}
+.part3 h1{
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 0.6em;
+    font-size: 3vw;
+    font-family:'Cairo' ,'sans-serif' ;
+}
+.part3 p{
+    text-align: center;
+    color: white;
+    margin-bottom: 2em;
+    font-size: 1.6vw;
+    font-family:'Cairo' ,'sans-serif' ;
+}
+.box-img{
+    background-image: url('../images/relative.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: block;
+    margin: auto;
+    height: 80px;
+    width: 80px;
+    position: relative;
+}
+.box-img img{
+    position: absolute;
+    display: block;
+    margin: auto;
+    margin-right: 22px;
+    margin-top: 30%;
+}
+
+.part0{
+    background-color: rgb(4, 4, 19);
+    margin-left: 1.7em;
+    border-radius: 20px;
+    flex: 1;
+    padding: 1.7em;
+}
+@media (max-width:1200px){
+    .part0{
+        margin-bottom: 5px;
+    }
+}
+.part0 h1{
+    text-align: center;
+    color: white;
+    margin-bottom: 1em;
+    font-size: 1.8vw;
+    font-family:'Cairo' ,'sans-serif' ;
+    
+}
+.part0 p{
+    text-align: center;
+    color: white;
+    margin-bottom: 1em;
+    font-size: 1vw;
+    font-family:'Cairo' ,'sans-serif' ;
+    line-height: 1.5;
+    
+}
+.part0 button{
+    display: block;
+    margin: auto;
+    color: skyblue;
+    font-size: 1.1vw;
+    font-family:'Cairo' ,'sans-serif' ;
+    background-color: transparent;
+    border: none;
+}
+.part3 .last-button{
+    text-align: center;
+    color: white;
+    border-radius: 35px;
+    font-size: 1.5vw;
+    font-family:'Cairo' ,'sans-serif' ;
+    display: block;
+    margin: auto;
+    padding: 1em 1.5em;
+    background-color: rgb(50, 176, 226);
+    border: none;
+    margin-top: 2.5em;
+}
+.section-four{
+    padding: 4.9em 2.9em;
+    background-image: linear-gradient(to left,#0d2a38 ,#11638b);
+    width: 100%;
+    height: auto;
+}
+.section-four h1{
+    text-align: center;
+    color: white;
+    margin-bottom: 2.2em;
+    font-size: 3vw;
+    font-family:'Cairo' ,'sans-serif' ;
+    font-weight: bold;
+}
+.section-four img{
+    height: auto;
+    width: 25vw;
+    margin-left: 2.5em;
+    margin-right: 1.5em;
+    border-radius: 20px;
+    margin-bottom: 4.5em;
+}
+.section-four .img2{
+    transform: scale(1.150);
+}
+.section-four p{
+    color: white;
+    margin-bottom: 2em;
+    font-size: 2vw;
+    font-family:'Cairo' ,'sans-serif' ;
+    text-align: center;
+    width: 80%;
+    margin: auto;
+    display: block;
+   
+}
+.section-five{
+    padding: 4.5em 0em;
+}
+.packge{
+    /* height: 130vh; */
+    height: auto;
+    width: 97%;
+    background-image: linear-gradient(to right ,#054e72,#be76e744 ,#4aafe291,#054e72);
+    margin: auto;
+    padding: 1.35em;
+}
+.packge h1{
+    text-align: center;
+    color: white;
+    margin-bottom: 2em;
+    font-size: 3vw;
+    font-family:'Cairo' ,'sans-serif' ;
+    font-weight: bold;
+    line-height: 1.50;
+}
+.row1{
+    text-align: center;
+    margin: auto;
+    margin-top: -4em;
+    height: auto;
+    
+}
+.sahm{
+    margin-left: -0.35em;
+    margin-right: -0.27em;
+}
+.row2{
+    display: flex;
+}
+.row2 .right{
+    flex: 1;
+    float: right;
+}
+.row2 .left{
+    flex: 1;
+    float: left;
+}
+.row3{
+    display: flex;
+}
+.row3 .right{
+    flex: 1;
+    float: right;
+}
+.row3 .left{
+    flex: 1;
+    float: left;
+}
+.row4{
+    display: flex;
+}
+.row4 .right{
+    flex: 1;
+    float: right;
+}
+.row4 .left{
+    flex: 1;
+    float: left;
+}
+.row5{
+    display: flex;
+}
+.row5 .right{
+    flex: 1;
+    float: right;
+}
+.row5 .left{
+    flex: 1;
+    float: left;
+}
+.section-six{
+    padding: 30px 0px;
+}
+.section-six h1{
+    text-align: center;
+    color: white;
+    margin-bottom: 1.5em;
+    font-size: 3vw;
+    font-family:'Cairo' ,'sans-serif' ;
+    font-weight: bold;
+}
+.section-six .div{
+    height: auto;
+    background-image: linear-gradient(to right bottom ,#022738 ,#067bb6);
+    margin-left: 1.2em;
+    margin-right: 1.2em;
+    margin-bottom: 3em;
+    border-radius: 15px;
+    padding: 2em;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+.div h3{
+    text-align: right;
+    color: white;
+    font-size: 1.5vw;
+    font-family:'Cairo' ,'sans-serif' ;
+    display: block;
+    margin-right: 3em;
+}
+.div .blue-img{
+    background-color: #1b96d3;
+    height: 48px;
+    width: 48px;
+    border-radius: 50%;
+    margin-top: 5px;
+    position: relative;
+    padding: 8px;
+    position: absolute;
+}
+.blue-img img{
+    position: absolute;
+}
+.section-six button{
+    display: block;
+    margin: auto;
+    font-size: 1.5vw;
+    font-family:'Cairo' ,'sans-serif' ;
+    padding: 0.7em 1.5em;
+    border-radius: 12px;
+}
+@media (max-width:1200px){
+    .div h3{
+        margin-right: 55px;
+    }
+}
+.section-seven{
+    padding: 3em 0em;
+}
+.div-square{
+    padding: 2.7em 0em;
+    width: 88%;
+    height: auto;
+    text-align: center;
+    background-image:radial-gradient(circle 350px at top center ,rgba(18, 143, 192, 0.521),#0d2a38  );    margin: auto;
+    border-radius: 35px;
+    margin-bottom: 7em;
+    border: 0.5px solid rgba(28, 173, 230, 0.582);
+    overflow: hidden;
+}
+.div-square h1{
+    text-align: center;
+    color: white;
+    margin-bottom: 2em;
+    font-size: 3.4vw;
+    font-family:'Cairo' ,'sans-serif' ;
+    font-weight: bold;
+    line-height: 1.45;
+}
+.div-form{
+    margin: auto;
+    
+}
+.input1 label{
+    float: right;
+    color: white;
+    font-size: 1.5vw;
+    font-weight: 500;
+    font-family:'Cairo' ,'sans-serif' ;
+    margin-right: 57px;
+}
+.input1 input::placeholder{
+    font-size: 1.3vw;
+    font-family:'Cairo' ,'sans-serif' ;
+}
+.input2 input::placeholder{
+    font-size: 1.3vw;
+    font-family:'Cairo' ,'sans-serif' ;
+}
+.input2 label{
+    float: right;
+    color: white;
+    font-size: 1.5vw;
+    font-weight: 500;
+    font-family:'Cairo' ,'sans-serif' ;
+    margin-right: 57px;
+}
+.div-form button{
+    padding: 1em 2em;
+    font-size: 1.5vw;
+    font-family:'Cairo' ,'sans-serif' ;
+    box-shadow: 0px 2px 11px 1px rgba(57, 179, 228, 0.541);
+    border: none;
+}
+
+.input1{
+    position: relative;
+}
+input{
+    background-color: #022738;
+    padding: 2.7em 4.2em;
+    width: 33vw;
+    border-radius: 15px;
+    margin: auto;
+    margin: 1.8em 3.8em;
+    border: 1px solid #eee;
+    overflow: hidden;
+}
+@media (max-width:768px){
+    .input1 img{
+       margin-right: 1em;
+    }
+    input{
+        width: 75%;
+        height: auto;
+    }
+}
+.input1 img{
+    position: absolute;
+    top: 90px;
+    right: 75px;
+    width: 2vw;
+    height: auto;
+}
+.input2{
+    position: relative;
+}
+.input2 h3{
+    position: absolute;
+    top: 60px;
+    left: 80px;
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+    font-size: 1.8vw;
+    font-family:'Cairo' ,'sans-serif' ;
+}
+.last{
+    background-image: linear-gradient(to right,#18045f7c,#206a8fbe,#3d2c7aab);
+    width: 88%;
+    height: 50vh;
+    padding:8em;
+    margin: auto;
+    margin-bottom: 7em;
+    
+}
+.last .inside{
+    background-color: #17597a;
+    padding: 3.2em 2.8em;
+    width: 85%;
+    height: 20vh;
+    display: block;
+    margin: auto;
+    border: 2px solid #eee;
+    border-radius: 22px;
+}
+@media (max-width:768px){
+    .last .inside{
+        width: 100%;
+        height: auto;
+    }
+}
+.last .inside button{
+    float: left;
+    background-color: rgb(47, 179, 231);
+    padding: 1em 5.5em;
+    font-size: 1.6vw;
+    font-weight: bold;
+    color: white;
+    font-family:'Cairo' ,'sans-serif' ;
+    box-shadow: -1px 7px 16px 8px rgba(57, 179, 228, 0.541);
+    border: none;
+    border-radius:35px ;
+    margin-top: -1em;
+}
+.footer-main{
+    display: flex;
+    padding: 2.5em;
+}
+.footer-main .footer-logo{
+    flex: 2;
+    text-align: center;
+}
+.footer-main .footer-logo .logo{
+    width: 20vw;
+    height: auto;
+}
+.footer-main .footer-logo h1{
+    text-align: center;
+    color: white;
+    font-size: 2.3vw;
+    font-family:'Cairo' ,'sans-serif' ;
+    font-weight: bold;
+    margin-bottom: 1.2em;
+}
+.footer-main .footer-logo ul li img{
+    margin-left: 0.7em;
+    width: 2.8vw;
+    height: auto;
+}
+.footer-main .ul-1{
+    flex: 1;
+}
+.ul-1 h3{
+    text-align: center;
+    color: white;
+    font-size: 1.8vw;
+    font-family:'Cairo' ,'sans-serif' ;
+    font-weight: bold;
+}
+.ul-1 ul li{
+    text-align: center;
+    color: white;
+    font-size: 1.4vw;
+    margin-bottom: 0.7em;
+    font-family:'Cairo' ,'sans-serif' ;
+    list-style-type: none;
+    line-height: 1.50;
+}
+.footer-last{
+    display: flex;
+    margin-top: 8em;
+}
+.footer-last .div1{ 
+    flex: 1;
+    margin-right: 4em;
+    color: white;
+    font-size: 1vw;
+    font-family:'Cairo' ,'sans-serif' ;
+}
+.footer-last .div1 ul li{
+    display: inline-block;
+    list-style-type: none;
+    margin-right: 1.5em;
+    
+}
+.footer-last .div2{
+    flex: 1;
+    margin-top: -10px;
+}
+.footer-last .div2 h3{
+    
+    float: left;
+    color: white;
+    font-size: 1vw;
+    font-family:'Cairo' ,'sans-serif' ;
+    margin-left: 4em; 
+    
+}
+footer{
+    background-image: radial-gradient(circle,#0d2a38,#09435f,#0d2a38);
+}
+.toggle{
+    display: none;
+}
